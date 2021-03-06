@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>YouTube</title>
+</head>
+<body>
+    <!-- NAVBAR  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-my-dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <div class= "left-side">  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="https://www.youtube.com/"><i class="fab fa-youtube"></i>YouTube<sup>RS</sup></a>
+            </div>
+
+            <div class="center-side d-flex">
+                <form class="d-flex bg-form forma">
+                    <input class="search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn  btn-search " type="submit"><i class="fas fa-search"></i></button>                
+                </form>
+                <button class="btn-nav" ><i class="fas fa-microphone"></i>
+                </button>
+            </div>  
+
+            <div class="right-side">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <button class="btn-nav">
+                        <i class="fas fa-plus-square"></i>
+                    </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn-nav">
+                            <i class="fas fa-th"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn-nav">
+                            <i class="fas fa-bell"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item btn-accaunt">
+                        <button class="btn-nav">
+                            M
+                        </button>
+                    </li>
+                </ul>
+            </div> 
+
+        </div>
+    </nav>
+    <section class="main row ">
+        <div class="col-8">
+            <div class=" main-video ">             
+                <div class="videoWrapper" id="player" >
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class=" bg-none">
+                    <h5 class="video-title">Embed videos and playlists</h5>
+                    <p class="video-text">Unlisted</p>
+                    <div class="d-flex views-and-likes">
+                        <div class="views ">
+                            <p>275,359 views &middot; May 13,2016 </p>
+                        </div>
+                        <div class="likes ">
+                            <button class="like btn-likes">
+                                <i class="fas fa-thumbs-up">1K</i>
+                            </button>
+                            <button class="dislike btn-likes">
+                                <i class="fas fa-thumbs-down">360</i>
+                            </button>
+                            <button class="share btn-likes">
+                                <i class="fas fa-share">SHARE</i>
+                            </button>
+                            <button class="save btn-likes">
+                                <i class="fas fa-folder-plus">SAVE</i>
+                            </button>
+                            <button class="options btn-likes">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                        </div>
+                       
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-1">
+                        <a  href="https://www.youtube.com/channel/UCMDQxm7cUx3yXkfeHa5zJIQ"><img class="chanel-img" src="/img/chanell-img.jpg" alt=""></a>
+                    </div>
+                    <div class="col-9 chanel-info">
+                        <a class="chanel-link" href="https://www.youtube.com/channel/UCMDQxm7cUx3yXkfeHa5zJIQ"><h5>TeamYouTube [Help]</h5></a><i class="fas fa-check-circle"></i><br>
+                        <p class="subs">8.29M subscribers</p>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-danger">SUBSCRIBE</button>
+                    </div>
+                    <div class="col-1">
+                        
+                    </div>
+                    <div class="col-9 chanel-info">
+                        <p>To learn more please visit the YouTube Help Center: <a href=" https://www.youtube.com/help"> https://www.youtube.com/help</a></p>
+                    </div>
+                    <div class="col-2">
+                       
+                    </div>
+                </div>
+                
+                <hr>
+            </div>
+            <div class="comments">
+                <div class="d-flex">
+                    <p class="me-5" >Comments</p>
+                    <p class="me-5" ><i class="fas fa-sort-amount-down"></i>SORT BY</p>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <button class="btn-nav nav-item btn-accaunt no-margin">
+                        M
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <div class="row px-3">
+                            <input class="comment-input" type="text" placeholder="Add a public comment...">
+                            <hr>
+                        </div>
+                        <div class="row">
+                           
+                        </div>
+                    </div>
+                
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="filter-btns mb-3">
+                <button class="btn btn-filter">All</button>
+                <button class="btn btn-filter">Listenable</button>
+                <button class="btn btn-filter">Recently uploaded</button>
+            </div>
+            <div class="video-list">
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                        <a href="https://www.youtube.com/embed/L3wKzyIN1yk"><img src="https://i.ytimg.com/an_webp/L3wKzyIN1yk/mqdefault_6s.webp?du=3000&sqp=CJzQj4IG&rs=AOn4CLBN8KvDdu7O5Ad-Qwh6GIgt5uFF3g" width=180 height="auto" alt=""></a>
+                        
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Rag'n'Bone Man - Human (Official Video) 
+                        </h5>
+                        <p>
+                            Rag'n'Bone Man
+                        </p>
+                        <p>
+                            1.2B views  &middot; 4 years ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6"> 
+                        <a href="https://www.youtube.com/watch?v=-auEiayzB70"><img src="https://i.ytimg.com/an_webp/-auEiayzB70/mqdefault_6s.webp?du=3000&sqp=CMqBkIIG&rs=AOn4CLBCTjy2SRwNqcsq1MwXRgbszz6e0Q" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Djordje Balasevic - Koncert - (Arena, Pula 16.6.2001.)
+                           
+                             
+                        </h5>
+                        <p>
+                            ĐORĐE BALAŠEVIĆ OFFICIAL
+                        </p>
+                        <p>
+                            633K views  &middot; 2 years ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=gOMhN-hfMtY"><img src="https://i.ytimg.com/an_webp/gOMhN-hfMtY/mqdefault_6s.webp?du=3000&sqp=CID9j4IG&rs=AOn4CLCB5PGkmlRFFvtfmQpXWxZX1OSEDQ" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Eminem - Stan (Long Version) ft. Dido
+                            
+                              
+                        </h5>
+                        <p>
+                            EminemMusic
+                        </p>
+                        <p>
+                            388M views  &middot; 11 years ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=sEw1HBCD6V8"><img src="https://i.ytimg.com/an_webp/sEw1HBCD6V8/mqdefault_6s.webp?du=3000&sqp=CK_-j4IG&rs=AOn4CLA4maVJZddVIOGkQmgpUQCuIScFAA" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Nikola Jokic 37 pts 10 rebs 11 asts vs Bucks 20/21 season
+
+ 
+                        </h5>
+                        <p>
+                            Z. Highlights
+                        </p>
+                        <p>
+                            84K views  &middot; 3 days ago 
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=3YxaaGgTQYM"><img src="https://i.ytimg.com/an_webp/3YxaaGgTQYM/mqdefault_6s.webp?du=3000&sqp=CKD7j4IG&rs=AOn4CLBkOLi5mtlfXK6PaovYrayHpTx8RA" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Evanescence - Bring Me To Life (Official Music Video)
+                            
+                              
+                        </h5>
+                        <p>
+                            Evanescence
+                        </p>
+                        <p>
+                            864M views  &middot; 11 years ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=rfscVS0vtbw"><img src="https://i.ytimg.com/an_webp/rfscVS0vtbw/mqdefault_6s.webp?du=3000&sqp=COCPkIIG&rs=AOn4CLBSpmyPbhZ9h3icvr2QyaYXH_Bv4Q" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Learn Python - Full Course for Beginners [Tutorial]
+
+
+                        </h5>
+                        <p>
+                            freeCodeCamp.org
+                        </p>
+                        <p>
+                            22M views  &middot;  2 years ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=uRyvNKRkwbs"><img src="https://i.ytimg.com/an_webp/uRyvNKRkwbs/mqdefault_6s.webp?du=3000&sqp=CO6EkIIG&rs=AOn4CLClzNQeA4__Qhz8DVboCY85-PcpcA" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                        Kotlin Android Tutorial | Learn How to Build an Android App 
+
+ 
+                        </h5>
+                        <p>
+                            tutorialsEU
+                        </p>
+                        <p>
+                            125K views  &middot; 11 months ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=-0VRRD2yv3k"><img src="https://i.ytimg.com/an_webp/-0VRRD2yv3k/mqdefault_6s.webp?du=3000&sqp=COadkIIG&rs=AOn4CLAT0cwEnca8yJIw7rocAB7sieFv2g" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Wimbledon 2019 | Istorijski Taj-Brejk, Đoković Šampion i Pogled Koji Sve Govori | SPORT KLUB Tenis
+                           
+                             
+                        </h5>
+                        <p>
+                            Sport Klub
+                        </p>
+                        <p>
+                            2M views  &middot; 1 year ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=C98XpeaYwy0"><img src="https://i.ytimg.com/an_webp/C98XpeaYwy0/mqdefault_6s.webp?du=3000&sqp=CJSckIIG&rs=AOn4CLCbQ_bOAvrpSXEnyHqxRf4Fb9a-oQ" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Bujinkan Tori Serbia
+ 
+ 
+                        </h5>
+                        <p>
+                            Takamatsu - den 
+                        </p>
+                        <p>
+                            345 views  &middot; 1 month ago
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                       <a href="https://www.youtube.com/watch?v=6dHjBpN7gCw"><img src="https://i.ytimg.com/an_webp/6dHjBpN7gCw/mqdefault_6s_480x270.webp?du=3000&sqp=CKibkIIG&rs=AOn4CLBF5H5qyjGdCP1T6uxt76iwBuUftg" width=180 height="auto" alt=""></a>
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            Vikings - Behind The Scenes (Funny Moments) [HD]
+
+ 
+                        </h5>
+                        <p>
+                            Vikinger
+                        </p>
+                        <p>
+                            4.2M views  &middot; 4 years ago 
+                        </p>
+                    </div>
+                </div>
+                <div class="row  sugestion">
+                    <div class=" video-prevew col-6">
+                        <a href="https://www.youtube.com/watch?v=VeAK7Bv4F1o"><img src="https://i.ytimg.com/an_webp/VeAK7Bv4F1o/mqdefault_6s_480x270.webp?du=3000&sqp=CNqEkIIG&rs=AOn4CLDEtR8HTajvcIuOnJd-cGF-LoMEPA"  width=180 height="auto"  alt=""></a>                  
+                        
+                    </div>
+                    <div class=" video-info col-6">
+                        <h5>
+                            15 Amazing Shortcuts You Aren't Using
+                        </h5>
+                        <p>
+                            BRIGHT SIDE
+                        </p>
+                        <p>
+                            18M views  &middot;  2 years ago 
+                        </p>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- JavaScript Bundle with Popper for Bootstrap-->     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>  
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6abfc73bc9.js" crossorigin="anonymous"></script>
+    
+  
+    
+</body>
+</html>

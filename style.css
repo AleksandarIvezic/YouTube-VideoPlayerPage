@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Yanone+Kaffeesatz:wght@700&display=swap');
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', Arial, sans-serif ;
+    line-height: 1.2rem;
+    background-color: #181818 ;
+}
+
+.navbar-toggler {
+    border:none;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.navbar-nav {    
+    flex-direction: row; 
+     
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-bars{
+    color: #C8C8C8;
+    background:none;
+}
+.fa-youtube{
+    color:#CC0000;
+}
+.btn-danger {
+    background-color:#CC0000;
+}
+.navbar-expand-lg .navbar-toggler{
+    display:inline !important;
+}
+.navbar-brand{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #C8C8C8 !important;
+}
+.navbar-brand sup {
+    font-family: 'Roboto', Arial, sans-serif ;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #999;
+}
+.nav{
+    width: 90% !important;
+}
+.bg-my-dark {
+    background-color: #131313 ;
+    opacity: .9;
+}
+.bg-form {
+    background-color: #323232 ;
+}
+.center-side {
+    flex-grow: 1;
+    justify-content: center;
+}
+.forma {
+    flex-grow: 1;
+    max-width: 1000px;
+}
+
+.search {
+    flex-grow: 1;
+    background: #121212;
+    color: #999999;
+    border-radius: 0 !important;
+    border: 1px solid #323232;
+    padding: 0 15px ;
+    font-weight: bold;
+}
+.btn-search {
+    background-color: #323232;
+    border: none;
+    color: #707070 ;
+    width: 70px;
+    font-size: 1rem;
+}
+.btn-search:hover {
+    color: #999999;
+}
+.btn-nav {
+    color: white;
+    background:none;
+    border: none;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    
+    
+}
+.btn-accaunt {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: #5C6BC0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 90%;
+    height: auto;
+    margin: 80px auto;
+}
+.main-video {
+    background:none;
+    color: #999999;
+    border:none;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-title{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.video-text{
+    background: #303030;
+    display: initial;
+    font-size: 12px;
+}
+.views-and-likes {    
+    justify-content: space-between;
+}
+.btn-likes {
+    background: none;
+    color: #999999;
+    border:none;
+    margin: 0 5px;
+}
+hr{    
+    background: #999;
+    margin: 25px 0;
+}
+.chanel-img {
+    border-radius: 50%;
+}
+.chanel-info{
+   padding-left: 20px;
+}
+.chanel-link{
+    background: none;
+    color: #999999;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+h5 {
+    margin: 0;
+}
+.chanel-link:hover {
+ color: #999999;
+}
+.subs {
+    font-size: 14px;
+}
+.comment-input{
+    background:none;
+    color:#999;
+    border:none;
+
+}
+p {
+    color: #999;
+}
+.no-margin {
+    margin: 0
+}
+.btn-filter {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+ color: #999;
+ border-radius:20px;
+ border: solid 1px #555;
+ font-size: 13px;
+ line-height: 1.2rem;
+}
+
+.sugestion p {
+    font-size: 13px;
+
+}
+.sugestion h5 {
+    font-size: 15px;
+    color: white;
+}
+.video-prevew {
+    display: flex;
+    justify-content: end;
+    padding: 5px 0;
+}
