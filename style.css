@@ -180,6 +180,7 @@ h5 {
 }
 p {
     color: #999;
+    margin-bottom: 0;
 }
 .no-margin {
     margin: 0
@@ -210,4 +211,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
     display: flex;
     justify-content: end;
     padding: 5px 0;
+}
+
+@media (max-width:1550px) {
+    .main {
+        width: 100%;
+    }
+   
+    
+    
+}   
+@media (max-width:955px) {
+    .main {
+        width: 90%;
+    }
+    .col-6{
+        width: 200px;
+    }
+   
+ 
+}   
+@media (max-width: 600px) {
+    *{
+        font-size: 12px;
+    }
+    .chanel {
+        display: flex;
+        flex-direction: column;        
+    }
+    .chanel > * {
+        margin: 5px;
+    }
 }
